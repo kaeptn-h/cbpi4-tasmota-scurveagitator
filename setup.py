@@ -12,7 +12,7 @@ setup(
     description='CraftBeerPi4 Actor Plugin for Tasmota PWM Agitator with S-Curve Soft-Start/Stop Ramping',
     author='Reinhard A. Bergmann',
     author_email='reinhard.bergmann@web.de',
-    url='https://github.com/kaeptn-h/cbpi4-Tasmota-S-CurveAgitator',
+    url='https://github.com/kaeptn-h/cbpi4-tasmota-scurveagitator',
     license='MIT',
     include_package_data=True,
     package_data={
