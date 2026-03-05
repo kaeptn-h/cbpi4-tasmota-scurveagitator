@@ -1,0 +1,4 @@
+name: cbpi4-tasmota-scurveagitator
+version: 1.0.0
+description: CraftBeerPi4 Actor Plugin for Tasmota PWM Agitator with S-Curve Soft-Start/Stop Ramping
+author: Reinhard A. Bergmann
