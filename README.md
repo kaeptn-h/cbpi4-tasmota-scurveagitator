@@ -20,12 +20,26 @@ In addition, a configurable **Start Offset** protects the motor from operating i
 
 ---
 
+### Hardware Requirements
+
+This plugin communicates via **MQTT** and requires a Tasmota-flashed device capable of **PWM output**. A standard Sonoff or Shelly device is **not sufficient** — these devices do not expose GPIO-level PWM control.
+
+**Required hardware:**
+- An **ESP32-based device** flashed with [Tasmota](https://tasmota.github.io/docs/) firmware
+- A **PWM motor driver** connected to a GPIO pin of the ESP32 (e.g. a dedicated PWM driver board or a suitable H-bridge/MOSFET module)
+- The Tasmota device must be configured with `pwm_range` matching the **MaxPWM** parameter (255, 511, or 1023)
+- MQTT broker accessible by both CraftBeerPi4 and the Tasmota device
+
+> **Note:** Hardware documentation for a reference implementation (MashCtrl board) will be added to this repository in a future update.
+
+---
+
 ### Installation
 
-Install directly from the Git repository:
+Install directly from the GitHub repository using `pipx`:
 
 ```bash
-pip install https://github.com/kaeptn-h/cbpi4-Tasmota-S-CurveAgitator/archive/main.zip
+pipx runpip cbpi4 install https://github.com/kaeptn-h/cbpi4-tasmota-scurveagitator/archive/main.zip
 ```
 
 ---
