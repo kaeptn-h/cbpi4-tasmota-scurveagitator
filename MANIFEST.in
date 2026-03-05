@@ -1,2 +1,2 @@
-include cbpi4_tasmota_mashctrl/config.yaml
-recursive-include cbpi4_tasmota_mashctrl/static *
+include cbpi4_tasmota_scurveagitator/config.yaml
+recursive-include cbpi4_tasmota_scurveagitator/static *
