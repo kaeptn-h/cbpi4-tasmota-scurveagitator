@@ -20,9 +20,7 @@ setup(
         'cbpi4_tasmota_scurveagitator': ['*', '*.txt', '*.rst', '*.yaml'],
     },
     packages=['cbpi4_tasmota_scurveagitator'],
-    install_requires=[
-        'cbpi4>=4.0.0',
-    ],
+    install_requires=[],
     entry_points={
         'cbpi4.plugins': [
             'cbpi4_tasmota_scurveagitator = cbpi4_tasmota_scurveagitator'
